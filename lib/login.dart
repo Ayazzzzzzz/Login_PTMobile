@@ -11,6 +11,7 @@ class Login extends StatelessWidget {
     String emailInput = '';
     String passwordInput = '';
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: const Color.fromARGB(255, 242, 247, 255),
       body: Stack(
         children: [
